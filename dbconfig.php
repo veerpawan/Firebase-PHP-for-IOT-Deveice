@@ -4,9 +4,9 @@ require __DIR__.'/vendor/autoload.php';
 
 use Kreait\Firebase\Factory;
 
-$factory = (new Factory)->withServiceAccount('fir-sampleapp-a2e33-firebase-adminsdk-26yi5-44117d553f.json')
+$factory = (new Factory)->withServiceAccount('abc.json')
 
-->withDatabaseUri('https://fir-sampleapp-a2e33-default-rtdb.firebaseio.com/');
+->withDatabaseUri('abc');
 $database = $factory->createDatabase();
 
 ?>
